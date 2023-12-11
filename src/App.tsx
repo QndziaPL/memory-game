@@ -41,7 +41,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    let timeout: NodeJS.Timeout;
+    let timeout: any;
 
     if (temporaryRevealed.length >= 2) {
       setClickEventBlocked(true);
